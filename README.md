@@ -3,13 +3,20 @@
 Este proyecto implementa un sistema de clasificación de imágenes por resonancia magnética cerebral (MRI) con el fin de estimar el grado de demencia. Se basa en redes neuronales convolucionales, incluyendo varias arquitecturas personalizadas de artículos (como Sivaranjani-CNN) y arquitecturas de IMagenet (ResNet18, MobileNet y AlexNet).
 
 ## 📁 Estructura del Proyecto
-├── interfaz/ # Interfaz web con Streamlit
+
+├── interfaz/ # Interfaz web con Streamlit<br>
 │ ├── app.py # Aplicación principal Streamlit
+
 │ ├── *.png # Imágenes de ejemplo
+
 │ └── *.pth # Pesos preentrenados de los modelos de interfaz
+
 ├── requirements.txt # Lista de dependencias de Python
+
 ├── setup.py # Script para descarga y preparación de datos
+
 └── modelos/ # carpeta con las versiones
+
 │ └── version*/ # Imágenes de ejemplo
 │   │    ├── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados
 └── └──  └── *.pth # Pesos preentrenados de los modelos
