@@ -12,9 +12,9 @@ Este proyecto implementa un sistema de clasificación de imágenes por resonanci
 ├── setup.py # Script para descarga y preparación de datos<br>
 └── modelos/ # carpeta con las versiones<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── version */ # Imágenes de ejemplo<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── notebooks/ # Carpetas con los jupiter Notebooks
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── notebooks/ # Carpetas con los jupiter Notebooks<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──*.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── pesos/ # Carpetas con pesos de cada modelo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── pesos/ # Carpetas con pesos de cada modelo<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──*.pth # Pesos preentrenados de los modelos<br>
 
 ---
@@ -72,7 +72,7 @@ Este script realiza las siguientes acciones:
 
 Dentro de la carpeta `modelos/` se encuentran subcarpetas correspondientes a diferentes versiones y pruebas realizadas durante la experimentación (`version*/`). Cada una de estas subcarpetas contiene:
 
-- Una carpeta `jupyternotebooks/` con los notebooks utilizados para entrenar, validar y probar los modelos. Estos notebooks documentan el proceso experimental completo.
+- Una carpeta `notebooks/` con los notebooks utilizados para entrenar, validar y probar los modelos. Estos notebooks documentan el proceso experimental completo.
 - Una carpeta `pesos/` que incluye los archivos `.pth` con los pesos resultantes del entrenamiento para cada modelo correspondiente.
 
 Estas versiones han sido utilizadas para comparar arquitecturas y ajustes, y los modelos finales seleccionados se encuentran listos para ser usados desde la interfaz web.
