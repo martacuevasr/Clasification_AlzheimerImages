@@ -12,8 +12,10 @@ Este proyecto implementa un sistema de clasificación de imágenes por resonanci
 ├── setup.py # Script para descarga y preparación de datos<br>
 └── modelos/ # carpeta con las versiones<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── version */ # Imágenes de ejemplo<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──*.pth # Pesos preentrenados de los modelos<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── notebooks/ # Carpetas con los jupiter Notebooks
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──*.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── pesos/ # Carpetas con pesos de cada modelo
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──*.pth # Pesos preentrenados de los modelos<br>
 
 ---
 
@@ -66,22 +68,33 @@ Este script realiza las siguientes acciones:
 
 ---
 
-## 🧠 Modelos Disponibles
+## 🧠 Modelos Entrenados y Experimentación
 
-Los siguientes modelos están incluidos y se encuentran en la carpeta `interfaz/`:
+Dentro de la carpeta `modelos/` se encuentran subcarpetas correspondientes a diferentes versiones y pruebas realizadas durante la experimentación (`version*/`). Cada una de estas subcarpetas contiene:
 
-- `3slicesPaper2Normalization01.pth`: modelo **Sivaranjani-CNN**
-- `3slicesResNetNormalization01.pth`: modelo **ResNet18**
+- Una carpeta `jupyternotebooks/` con los notebooks utilizados para entrenar, validar y probar los modelos. Estos notebooks documentan el proceso experimental completo.
+- Una carpeta `pesos/` que incluye los archivos `.pth` con los pesos resultantes del entrenamiento para cada modelo correspondiente.
+
+Estas versiones han sido utilizadas para comparar arquitecturas y ajustes, y los modelos finales seleccionados se encuentran listos para ser usados desde la interfaz web.
+
 
 ## 🖥️ Interfaz Web
 
-Para lanzar la aplicación de predicción mediante Streamlit:
+La carpeta `interfaz/` contiene la aplicación que permite ejecutar el sistema de predicción mediante una interfaz gráfica desarrollada con **Streamlit**. En ella encontrarás:
+
+- `app.py`: archivo principal de la aplicación.
+- `3slicesPaper2Normalization01.pth`: modelo **Sivaranjani-CNN** entrenado.
+- `3slicesResNetNormalization01.pth`: modelo **ResNet18** entrenado.
+- Tres imágenes de ejemplo para realizar pruebas rápidas.
+
+### ▶️ Cómo ejecutar la aplicación
+
+Asegúrate de tener las dependencias instaladas (ver sección de instalación) y luego ejecuta los siguientes comandos en tu terminal:
 
 ```bash
 cd interfaz
 streamlit run app.py
 ```
-
 
 La interfaz permite:
 
