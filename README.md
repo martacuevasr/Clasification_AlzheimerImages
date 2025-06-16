@@ -49,8 +49,47 @@ Este proyecto implementa un sistema de clasificación de imágenes por resonanci
   pip install -r requirements.txt
 ```
 
-##📥 Descarga y Preparación de Datos
+## 📥 Descarga y Preparación de Datos
+
 Ejecuta el siguiente script para descargar, descomprimir y organizar el conjunto de datos necesario:
+
+```bash
+python setup_data.py
+```
+
+Este script realiza las siguientes acciones:
+
+- 📥 Descarga los datos desde la fuente indicada.
+- 📦 Descomprime los archivos.
+- 📂 Crea la estructura de carpetas para imágenes y anotaciones.
+
+---
+
+## 🧠 Modelos Disponibles
+
+Los siguientes modelos están incluidos y se encuentran en la carpeta `interfaz/`:
+
+- `3slicesPaper2Normalization01.pth`: modelo **Sivaranjani-CNN**
+- `3slicesResNetNormalization01.pth`: modelo **ResNet18**
+
+## 🖥️ Interfaz Web
+
+Para lanzar la aplicación de predicción mediante Streamlit:
+
+´´´bash
+cd interfaz
+streamlit run app.py
+´´´
+
+## 🖥️ Interfaz Web
+
+La interfaz permite:
+
+- Cargar una imagen MRI en formato **JPG, JPEG o PNG**.
+- Seleccionar el modelo (**Sivaranjani-CNN** o **ResNet18**).
+- Obtener la **predicción de probabilidades** para cada clase de demencia (leve, moderada, severa...).
+
+> ⚠️ **Importante:** Asegúrate de que los archivos `.pth` con los pesos estén en la misma carpeta que `app.py`, o en la ruta especificada en el código.
 
 
 
