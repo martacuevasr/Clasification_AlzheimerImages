@@ -5,21 +5,15 @@ Este proyecto implementa un sistema de clasificación de imágenes por resonanci
 ## 📁 Estructura del Proyecto
 
 ├── interfaz/ # Interfaz web con Streamlit<br>
-│ ├── app.py # Aplicación principal Streamlit
-
-│ ├── *.png # Imágenes de ejemplo
-
-│ └── *.pth # Pesos preentrenados de los modelos de interfaz
-
-├── requirements.txt # Lista de dependencias de Python
-
-├── setup.py # Script para descarga y preparación de datos
-
-└── modelos/ # carpeta con las versiones
-
-│ └── version*/ # Imágenes de ejemplo
-│   │    ├── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados
-└── └──  └── *.pth # Pesos preentrenados de los modelos
+│ ├── app.py # Aplicación principal Streamlit<br>
+│ ├── *.png # Imágenes de ejemplo<br>
+│ └── *.pth # Pesos preentrenados de los modelos de interfaz<br>
+├── requirements.txt # Lista de dependencias de Python<br>
+├── setup.py # Script para descarga y preparación de datos<br>
+└── modelos/ # carpeta con las versiones<br>
+│ └── version*/ # Imágenes de ejemplo<br>
+│   │    ├── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
+└── └──  └── *.pth # Pesos preentrenados de los modelos<br>
 
 ---
 
