@@ -12,8 +12,8 @@ Este proyecto implementa un sistema de clasificación de imágenes por resonanci
 ├── setup.py # Script para descarga y preparación de datos<br>
 └── modelos/ # carpeta con las versiones<br>
 │ └── version*/ # Imágenes de ejemplo<br>
-│     │      ├── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
-└──   └──    └── *.pth # Pesos preentrenados de los modelos<br>
+│     │     ├── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
+└──   └──   └── *.pth # Pesos preentrenados de los modelos<br>
 
 ---
 
