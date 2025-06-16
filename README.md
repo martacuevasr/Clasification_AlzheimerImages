@@ -77,10 +77,10 @@ Los siguientes modelos están incluidos y se encuentran en la carpeta `interfaz/
 
 Para lanzar la aplicación de predicción mediante Streamlit:
 
-´´´bash
+```bash
 cd interfaz
 streamlit run app.py
-´´´
+```
 
 
 La interfaz permite:
