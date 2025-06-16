@@ -6,16 +6,16 @@ Este proyecto implementa un sistema de clasificación de imágenes por resonanci
 
 ├── interfaz/ # Interfaz web con Streamlit<br>
 │ ├── app.py # Aplicación principal Streamlit<br>
-│ ├── *.png # Imágenes de ejemplo<br>
-│ └── *.pth # Pesos preentrenados de los modelos de interfaz<br>
+│ ├── * .png # Imágenes de ejemplo<br>
+│ └── * .pth # Pesos preentrenados de los modelos de interfaz<br>
 ├── requirements.txt # Lista de dependencias de Python<br>
 ├── setup.py # Script para descarga y preparación de datos<br>
 └── modelos/ # carpeta con las versiones<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── version* / # Imágenes de ejemplo<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── version * / # Imágenes de ejemplo<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── notebooks/ # Carpetas con los jupiter Notebooks<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;│&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── pesos/ # Carpetas con pesos de cada modelo<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── *.pth # Pesos preentrenados de los modelos<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── *.pth # Pesos preentrenados de los modelos<br>
 
 ---
 
