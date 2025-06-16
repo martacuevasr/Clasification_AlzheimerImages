@@ -82,7 +82,6 @@ cd interfaz
 streamlit run app.py
 ´´´
 
-## 🖥️ Interfaz Web
 
 La interfaz permite:
 
