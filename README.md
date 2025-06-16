@@ -11,9 +11,9 @@ Este proyecto implementa un sistema de clasificación de imágenes por resonanci
 ├── requirements.txt # Lista de dependencias de Python<br>
 ├── setup.py # Script para descarga y preparación de datos<br>
 └── modelos/ # carpeta con las versiones<br>
-&nbsp;&nbsp;&nbsp;└── version*/ # Imágenes de ejemplo<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── version*/ # Imágenes de ejemplo<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── *.ipynb # Jupiter Notebooks con el codigo de los modelos entrenados<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*.pth # Pesos preentrenados de los modelos<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└──*.pth # Pesos preentrenados de los modelos<br>
 
 ---
 
