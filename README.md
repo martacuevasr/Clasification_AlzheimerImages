@@ -1,6 +1,6 @@
 # Clasificación de Imágenes MRI para Diagnóstico de Demencia
 
-**TODOS LOS ARCHIVOS NECESARIOS SE ENCUENTRAN EN EL REPOSITORIO A TRAVÉS DEL SIGUIENTE ENLACE**
+**TODOS LOS ARCHIVOS NECESARIOS SE ENCUENTRAN EN EL REPOSITORIO, ACCESIBLE A TRAVÉS DEL SIGUIENTE ENLACE:**
 https://github.com/martacuevasr/Clasification_AlzheimerImages
 
 Este proyecto implementa un sistema de clasificación de imágenes por resonancia magnética cerebral (MRI) con el fin de estimar el grado de demencia. Se basa en redes neuronales convolucionales, incluyendo varias arquitecturas personalizadas de artículos (como Sivaranjani-CNN) y arquitecturas de IMagenet (ResNet18, MobileNet y AlexNet).
