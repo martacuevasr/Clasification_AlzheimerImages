@@ -1,5 +1,8 @@
 # Clasificación de Imágenes MRI para Diagnóstico de Demencia
 
+**TODA LA INFROMACIÓN NECESARIA SE ENCUENTRA EN EL SIGUIENTE ENLACE**
+https://github.com/martacuevasr/Clasification_AlzheimerImages
+
 Este proyecto implementa un sistema de clasificación de imágenes por resonancia magnética cerebral (MRI) con el fin de estimar el grado de demencia. Se basa en redes neuronales convolucionales, incluyendo varias arquitecturas personalizadas de artículos (como Sivaranjani-CNN) y arquitecturas de IMagenet (ResNet18, MobileNet y AlexNet).
 
 ## 📁 Estructura del Proyecto
@@ -8,6 +11,7 @@ Este proyecto implementa un sistema de clasificación de imágenes por resonanci
 │ ├── app.py # Aplicación principal Streamlit<br>
 │ ├── * .png # Imágenes de ejemplo<br>
 │ └── * .pth # Pesos preentrenados de los modelos de interfaz<br>
+├── diagramas/ # Diagramas utilizados en la memoria<br>
 ├── requirements.txt # Lista de dependencias de Python<br>
 ├── setup.py # Script para descarga y preparación de datos<br>
 └── modelos/ # carpeta con las versiones<br>
